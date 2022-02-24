@@ -1,0 +1,74 @@
+.menu {
+   list-style: none;
+   margin: 0; 
+   padding: 0;
+   background-color: brown;
+
+   /* Resolvendo o Efeito colateral do Float */
+
+   overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 16px 20px;
+    display: block;
+}
+
+.menu a:hover, .menu a:focus{
+    background-color: whitesmoke;
+    color:brown;
+    font-size: x-large;
+    
+}
+
+/* @media screen and (max-width: 760px){
+    .menu a { text-align: center; }
+    .menu li { float: none; }
+} */
+
+
+/* VERSÃO FINAL */
+
+/* Escondendo inicialmente o ícone */
+.menu li.icone { display: none; }
+
+
+@media screen and (max-width: 760px){
+    /* Escondendo os itens do menu */
+    .menu li { display: none; }
+
+    /* Tornando visível somente o li do menu/icone */
+    .menu li.icone {
+        display: block;
+        float: right;
+    }
+
+
+
+    /* Importante para o posicionamento
+    dos itens contidos dentro do menu */
+    .menu.responsivo { position: relative; }
+
+    /* Posicionando o ícone/menu na parte
+    superior/direita do menu */
+    .menu.responsivo li.icone {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }   
+
+    /* Remoção do float e garantindo
+    a exibição em linha */
+    .menu.responsivo li {
+        float: none;
+        display: inline;
+    }
+}
+
+
