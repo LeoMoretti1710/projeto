@@ -1,0 +1,38 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java Pleno"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista Comercial"
+    },
+    {
+      "id": 3,
+      "titulo": "Instrutor Excel Avançado"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerente de Projetos para .NET"
+    },
+    {
+      "id": 5,
+      "titulo": "Consultor de Desenvolvimento Agil"
+    },
+    {
+      "id": 6,
+      "titulo": "Programador VB.Net"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "Henrique",
+      "data": "2019-08-17",
+      "telefone": "1138057878",
+      "email": "henrique_moretti@hotmail.com",
+      "vaga": "Gerente de Projetos para .NET",
+      "id": 1
+    }
+  ]
+}

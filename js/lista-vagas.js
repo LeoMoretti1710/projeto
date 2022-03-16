@@ -1,6 +1,6 @@
 // Rota ou Endpoint da Api de Vagas
 let urlVagas = "http://localhost:3000/vagas";
-
+//Elemento a ser "preenchido"
 const selectVagas = document.querySelector("#vaga");
 
 // Consumo de dados assíncrono a partir da API
