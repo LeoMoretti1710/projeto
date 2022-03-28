@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<body>
+    <h1>Usando Jquery</h1>
+    <hr>
+    <h2>Subtítulo 1</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim deleniti voluptates delectus esse corporis iusto, assumenda voluptas sapiente quasi ipsam cum cupiditate distinctio deserunt iste expedita quas illo sed ut.</p>
+    <hr>
+    <h2>Subtítulo2</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium dolorem aut!</p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // Programando JavaScript usando os recursos da jQuery
+
+        const titulo = $("h1");
+        const subtitulo = $("h2");
+
+        /*
+        outros exemplos: Funcção jQuery
+        $('.nome-da-classe')
+        $('#identificador')*/
+
+        /* Manipulando o DOM */
+        titulo.text('Hello World');
+        subtitulo.css('text-align', 'center');
+    </script>
+</body>
+</html>

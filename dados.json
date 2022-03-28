@@ -33,6 +33,54 @@
       "email": "henrique_moretti@hotmail.com",
       "vaga": "Gerente de Projetos para .NET",
       "id": 1
+    },
+    {
+      "nome": "Roberta Moretti",
+      "data": "1985-09-25",
+      "telefone": "1138050504",
+      "email": "roberta_moretti25@ig.com.br",
+      "vaga": "Programador VB.Net",
+      "id": 2
+    },
+    {
+      "nome": "Sueli Moretti",
+      "data": "0058-09-21",
+      "telefone": "1138070738",
+      "email": "suelimoretti21@ig.com.br",
+      "vaga": "Analista Comercial",
+      "id": 3
+    },
+    {
+      "nome": "Jair Moretti",
+      "data": "0058-06-27",
+      "telefone": "1138070712",
+      "email": "jairmoretti27@ig.com.br",
+      "vaga": "Instrutor Excel Avançado",
+      "id": 4
+    },
+    {
+      "nome": "Mariana Figueiro",
+      "data": "1987-02-12",
+      "telefone": "11996590407",
+      "email": "mariana.figueiro@ig.com.br",
+      "vaga": "Instrutor Excel Avançado",
+      "id": 5
+    },
+    {
+      "nome": "Marcelo Figueiro",
+      "data": "1986-05-06",
+      "telefone": "11998657845",
+      "email": "marcelo.figueiro@ig.com.br",
+      "vaga": "Programador Java Pleno",
+      "id": 6
+    },
+    {
+      "nome": "Jair Moretti Junior",
+      "data": "1981-08-05",
+      "telefone": "11 32659878",
+      "email": "jairjunior05@ig.com.br",
+      "vaga": "Programador Java Pleno",
+      "id": 7
     }
   ]
 }
